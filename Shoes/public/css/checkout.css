@@ -1,0 +1,158 @@
+
+.nav-right{
+  color: #000000 !important;
+}
+
+.nav-right ul li a::after {
+  background: #000000 !important;
+}
+
+/*------------Checkout------------*/
+
+.checkout-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 150px auto 100px auto;
+}
+
+.checkout-container .right .space .order-table  img {
+  width: 150px;
+}
+
+.checkout-container h3 {
+  font-size: 25px;
+  margin: 20px 0px 25px 0px;
+}
+
+.checkout-container .left {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px grey solid;
+  font-size: 17px;
+  margin: 0 20px;
+  float: left;
+  padding: 5px 20px 15px 20px;
+  background-color: #f2f2f2;
+}
+
+.checkout-container .right {
+  width: 40%;
+  margin: 0 20px;  
+  font-size: 17px;
+  border-radius: 10px;
+  border:2px grey solid;
+  background-color: #f2f2f2;
+  float: right;
+}
+
+.left input[type=text], 
+.left input[type=email] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.left label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.left .btnx {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+
+.left .btnx:hover {
+  background-color: #45a049;
+}
+
+.right .space {
+  padding: 0 20px;
+}
+
+.right .space table {
+  width: 100%;
+}
+
+.right p {
+  margin-top: 0px;
+}
+
+.right .space .order-table .tittle {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.right .space .order-table h4 {
+  font-weight: 400;
+}
+
+.right .space .order-table .price {
+  color: #808080;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.right .space .order-table .cart-item-image {
+  border-radius: 10px;
+}
+
+.right .space .order-table td:last-of-type {
+  vertical-align: top;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.right .space .total {
+  margin: 4px 0px 4px 0px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: right;
+  padding: 10px 15px;
+  border-top: 1px solid grey;
+}
+
+@media screen and (max-width: 930px) {
+
+  .checkout-container {
+    width: 90%;
+  }
+
+  .checkout-container .right {
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+
+  .checkout-container .left {
+    width: 100%;
+    border-right: 3px #808080 solid;
+    margin: 0 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .right .space {
+    padding: 0 10px;
+  }
+
+  .checkout-container .right .space .order-table  img{
+    width: 90px;
+  }
+
+  .right .space .order-table .tittle {
+    font-size: 20px;
+  }
+}

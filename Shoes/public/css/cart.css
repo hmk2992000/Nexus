@@ -1,0 +1,258 @@
+
+
+.nav-right {
+	color: #000000 !important;
+}
+
+.nav-right ul li a::after {
+  background: #000000 !important;
+}
+
+/*------------Cart Table------------*/
+
+.filled-cart {
+	width: 95%;
+	margin: 150px auto 100px;
+}
+
+.pc-table,
+.mobile-table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.pc-table th {
+	width: 15%;
+	padding: 20px 0; 
+	font-size: 18px;
+	color: #969696 !important;
+	text-transform: uppercase !important;
+}
+
+.pc-table tr,
+.mobile-table tr{
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.pc-table th:first-child {
+	width: 40%;
+	text-align: left;
+}
+
+.pc-table td:first-child,
+.mobile-table td:first-child {
+	padding: 20px 0 !important; 
+}
+
+.pc-table td,
+.mobile-table td {
+	padding: 20px; 
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+}
+
+.pc-table td img {
+	width: 82px;
+	height: 82px;
+	padding: 5px;
+	background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.pc-table td h2,
+.mobile-table td h2 {
+	text-transform: capitalize !important;
+	font-size: 18px;
+	color: #000 !important;
+	font-weight: normal;
+}
+
+.pc-table td .size-box {
+	width: 100%;
+}
+
+.pc-table td .size-box select,
+.mobile-table td .size-box select {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	background: transparent;
+	border: 1px solid #c8c8c8;
+	cursor: pointer;
+	font-size: 16px;
+	white-space: nowrap;
+	color: #000 !important;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+}
+
+.pc-table td .size-box::after,
+.mobile-table td .size-box::after  {
+	content: '';
+	position: absolute;
+	right: 28px;
+	top: 50%;
+	margin-top: -4px;
+	border-top: 8px solid #ccc;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	z-index: -1;
+}
+
+.pc-table td input[type="number"] {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #000 !important;
+	padding: 8 10px;
+	border: 1px solid #c8c8c8;
+}
+
+.pc-table td span {
+	font-size: 18px;
+	color: #000 !important;
+}
+
+.pc-table td span i {
+	cursor: pointer;
+}
+
+.pc-table td span i:hover {
+	color: #EA2027 !important;
+}
+
+.filled-cart .text-right {
+	width: 100%;
+	text-align: right;
+	padding: 15px 5px;
+}
+
+.filled-cart .text-right p {
+	font-size: 18px;
+	text-transform: uppercase !important;
+	color: #969696 !important;
+	letter-spacing: 2px;
+}
+
+.filled-cart .text-right p span {
+	font-size: 21px;
+	color: #323232 !important;
+	padding-left: 15px;
+}
+
+.filled-cart .text-right .btn {
+	display: inline-block;
+	padding: 12px 18px;
+	background: transparent;
+	border: 1px solid #c8c8c8;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	text-align: center;
+	text-transform: capitalize !important;
+	color: #000 !important;
+}
+
+.filled-cart .text-right .checkout {
+	background: #2ecc71;
+	border: none !important;
+	color: #fff !important;
+	margin-right: 0;
+}
+
+.filled-cart .text-right .btn i {
+	margin-right: 10px;
+}
+
+.mobile-table {
+	display: none;
+	border-top: 1px solid #c8c8c8; 
+}
+
+@media screen and (max-width: 700px) {
+	.pc-table {
+		display: none;
+	}
+
+	.mobile-table {
+		display: table;
+	}
+
+	.filled-cart .text-right .btn {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
+
+.mobile-table td {
+	width: 75%;
+	text-align: left;
+}
+
+.mobile-table td:first-child {
+	width: 25% !important;
+}
+
+.mobile-table td img {
+	width: 90px;
+	height: 90px;
+	padding: 5px;
+	background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.mobile-table h2,
+.mobile-table div {
+	margin-bottom: 15px;
+}
+
+.mobile-table label {
+	font-size: 16px;
+	color: #000 !important;
+	padding-right: 12px;
+}
+
+.mobile-table td .size-box {
+	display: inline-block;
+	position: relative;
+}
+
+.mobile-table td .size-box::after {
+	right: 5px !important;
+	margin-top: -3px;
+}
+
+.mobile-table td .size-box select {
+	width: 60px !important;
+	height: 30px !important;
+	margin-left: 30px;
+}
+
+.mobile-table td input[type="number"] {
+	width: 60px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #000 !important;
+	padding: 8 10px;
+	border: 1px solid #c8c8c8;
+}
+
+#mobile-remove {
+	font-size: 18px;
+	color: #EA2027 !important;
+	cursor: pointer;
+}
+
+#mobile-price {
+	font-size: 20px;
+	font-weight: normal;
+	color: #323232 !important;
+	position: absolute;
+	right: 10px;
+	bottom: 14px;
+}

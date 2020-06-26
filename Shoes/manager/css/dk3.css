@@ -1,0 +1,55 @@
+.formdk input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.formdk input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.formdk label
+{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.nutdk
+{
+    background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.nuthuy
+{
+    background-color: rgb(199, 35, 35);
+      border: none;
+      color: white;
+      padding: 15px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.nutdk:hover
+    {
+      background-color:green;
+    }
+
+.nuthuy:hover
+{
+      background-color: rgb(194, 16, 16);
+}
